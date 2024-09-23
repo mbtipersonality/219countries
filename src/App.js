@@ -4,7 +4,8 @@ import search from './search'
 
 function App() {
   const handleClick = () => {
-    const randSearch = search[Math.floor(Math.random() * 74998 )]
+    const randSearch = search[Math.floor(Math.random() * 500 )]
+    // 74998
     
     window.location = `https://yewtu.be/search?q=${randSearch}`
   }
