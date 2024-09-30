@@ -7,7 +7,8 @@ function App() {
     const randSearch = search[Math.floor(Math.random() * (7745 - 1 + 1) + 1 )]
     // 74998
     
-    window.location = `https://yewtu.be/search?q=${randSearch}`
+    // window.location = `https://yewtu.be/search?q=${randSearch}`
+    window.location = `https://redditfavorites.com/r/${randSearch}`
   }
   return (
     <div className='App' onClick={handleClick}>
