@@ -8,7 +8,8 @@ function App() {
     // 74998
     
     // window.location = `https://yewtu.be/search?q=${randSearch}`
-    window.location = `https://redditfavorites.com/r/${randSearch}`
+    // window.location = `https://redditfavorites.com/r/${randSearch}`
+    window.location = `https://redditfavorites.com/?q=${randSearch}`
   }
   return (
     <div className='App' onClick={handleClick}>
